@@ -11,4 +11,11 @@ describe('coinCounter', () => {
     expect(Q).toEqual(0.25);
   })
 
+  test('should generate how many times Q divides into userInput as a whole number', () => {
+    const userInput = 4.99
+    const Q = 0.25
+    expect(userInput).toEqual(19);
+  })
+    
+
 });
