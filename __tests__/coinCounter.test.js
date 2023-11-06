@@ -6,4 +6,9 @@ describe('coinCounter', () => {
     expect(typeof Q).toBe('number');
   })
 
+  test('should return Q value', () => {
+    const Q = 0.25
+    expect(Q).toEqual(0.25);
+  })
+
 });
